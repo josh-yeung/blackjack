@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/black-jack" rel="stylesheet">
+</head>
+<body> 
+    <div class="title-container">
+        <a id="homepage" href="home.html"><h2 id="title">Blackjack</h2></a>
+    </div>
+    <h2 class="identity">Dealer</h2>
+    <div id="dealer-cards" class="cards-container">
+        <img id="hidden" class="cards" src="cards/BACK.png">
+    </div>
+    <h2 class="identity">You</h2>
+    <div id="your-cards" class="cards-container">
+    </div>
+    <div class="bottom-screen">
+        <div class="betting-container">
+            <h3 id="bet-amount">Bet: $0</h3>
+            <button id="bet-btn" class="button">Change Bet</button>
+        </div>
+        <div class="button-container">
+            <button id="hit" class="button">Hit</button>
+            <button id="stay" class="button">Stay</button>
+        </div>
+        <h3 id="cash">Cash: $0 💰</h3>
+    </div>
+    <div class="change-bet">
+        <div class="pop-up">
+            <div class="close">x</div>
+            <h2 id="bet-header">Change Bet</h2>
+            <img id="money-img" src="images/bet-img.png">
+            <h3 id="bet-question">How much would you like to bet?</h3>
+            <div>
+                <input id="money-input" type="number" placeholder="         $1 - $999,999,999">
+                <button id="bet-button" class="button">Bet</button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="cash-out">
+        <div class="pop-up">
+            <div class="close">x</div>
+            <h2 id="bet-header">Thanks for Playing</h2>
+            <h3 id="bet-question">Cash Out</h3>
+        </div>
+    </div> -->
+    <script src="index.js"></script>
+</body>
+</html>

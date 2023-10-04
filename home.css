@@ -1,0 +1,130 @@
+body {
+    font-family: 'BlackJack', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/blackjack.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#title {
+    font-size: 75px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px turquoise, 0 0 15px turquoise, 0 0 20px turquoise, 0 0 30px turquoise, 0 0 40px turquoise, 0 0 55px turquoise, 0 0 75px turquoise;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cash-home {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 15px rgb(173, 154, 47);
+}
+
+.cash-container {
+    display: flex;
+    align-items: end;
+    height: 80vh;
+    --width: 0px; 
+    width: auto; 
+    margin-left: calc(-1 * var(--width));
+}
+
+
+.button-container {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button {
+    margin: 15px;
+    font-family: 'BlackJack';
+    font-size: 25px;
+    padding: 5px 20px;
+    background-color: black;
+    text-shadow: 0 0 1px black;
+    color: white;
+    border: 5px solid rgb(173, 154, 47);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.2s linear, background 0.5s ease;
+}
+
+.button:hover {
+    color: red;
+    transform: scale(1.05);
+}
+
+.deposit-money {
+    width: 99.5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up {
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    border: 10px solid rgb(173, 154, 47);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    color: rgb(173, 154, 47);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#deposit-header {
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+}
+
+#money-img {
+    height: 150px;
+    width: 150px;
+}
+
+#deposit-question {
+    color: white;
+    font-size: 25px;
+}
+
+#money-input {
+    width: 300px;
+    height: 45px;
+    display: block;
+    margin: 15px;
+    border: 7px solid rgb(173, 154, 47);
+    font-size: 25px;
+    font-family: 'BlackJack';
+    font-weight: bold;
+}

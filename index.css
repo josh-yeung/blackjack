@@ -1,0 +1,175 @@
+body {
+    font-family: 'BlackJack', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/backdrop.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-size: 75px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px turquoise, 0 0 15px turquoise, 0 0 20px turquoise, 0 0 30px turquoise, 0 0 40px turquoise, 0 0 55px turquoise, 0 0 75px turquoise;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+
+#homepage {
+    text-decoration: none;
+}
+
+.bottom-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cash {
+    font-size: 25px;
+    padding-left: 25px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow: 0 0 3px turquoise;
+}
+
+#bet-amount {
+    font-size: 25px;
+    margin: 0px;
+    color: white;
+    text-shadow: 0 0 3px turquoise;
+}
+
+#bet-btn {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    margin: 15px;
+    font-family: 'BlackJack';
+    font-size: 25px;
+    padding: 5px 20px;
+    background-color: slategray;
+    text-shadow: 0 0 1px black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.2s linear, background 0.5s ease;
+}
+
+.button:hover {
+    background: rgb(94, 235, 221);
+    transform: scale(1.05);
+}
+
+
+.cards {
+    height: 150px;
+    margin: 0 5px;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+.cards:active {
+    content: url("./cards/BACK.png");
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px;
+}
+
+.identity {
+    text-shadow: 0 0 2px white;
+    font-size: 25px;
+}
+
+.change-bet {
+    width: 99.5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(3, 52, 47);
+    border: 10px solid white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#bet-header {
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+}
+
+#money-img {
+    height: 150px;
+    width: 150px;
+}
+
+#bet-question {
+    color: white;
+    font-size: 25px;
+}
+
+#money-input {
+    width: 300px;
+    height: 45px;
+    display: block;
+    margin: 15px;
+    border: 7px solid rgb(5, 95, 86);
+    font-size: 25px;
+    font-family: 'BlackJack';
+    font-weight: bold;
+}
+
+.cash-out {
+    width: 99.5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

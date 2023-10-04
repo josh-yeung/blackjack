@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Play Blackjack</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.cdnfonts.com/css/black-jack" rel="stylesheet">
+</head>
+<body>
+    <div class="title-container">
+        <h1 id="title">Blackjack</h1>
+    </div>
+    <div class="bottom-screen">
+        <div class="button-container">
+            <a href="index.html"><button class="button">Play</button></a>
+            <button class="button">Deposit Money</button>
+            <button id="play" class="button">How to Play</button>
+        </div>
+        <div class="cash-container">
+            <h3 id="cash-home">Cash: $0 💰</h3>
+        </div>
+    </div>
+    <div class="deposit-money">
+        <div class="pop-up">
+            <div class="close">x</div>
+            <h2 id="deposit-header">Deposit Money</h2>
+            <img id="money-img" src="images/depositmoney.png">
+            <h3 id="deposit-question">How much money would you like to deposit?</h3>
+            <div>
+                <input id="money-input" type="number" placeholder="         $1 - $999,999,999">
+                <button id="deposit-button" class="button">Deposit</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
